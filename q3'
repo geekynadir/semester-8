@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Train Table</title>
+</head>
+
+<body>
+
+<h1>Train Schedule</h1>
+
+<table border="1" cellspacing="0" cellpadding="20">
+
+    
+    <tr>
+        <th>Name of the Train</th>
+        <th>Place</th>
+        <th>Destination</th>
+        <th>Train No.</th>
+        <th colspan="2">Time</th>
+        <th>Fare</th>
+    </tr>
+
+    
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>Arrival</th>
+        <th>Departure</th>
+        <th></th>
+    </tr>
+
+    
+    <tr>
+        <td>Express Line</td>
+        <td>Delhi</td>
+        <td>Mumbai</td>
+        <td>12345</td>
+        <td>09:30 AM</td>
+        <td>10:00 AM</td>
+        <td>₹850</td>
+    </tr>
+
+    <tr>
+        <td>City Rider</td>
+        <td>Chennai</td>
+        <td>Bangalore</td>
+        <td>67890</td>
+        <td>01:15 PM</td>
+        <td>01:45 PM</td>
+        <td>₹550</td>
+    </tr>
+
+</table>
+
+</body>
+</html>

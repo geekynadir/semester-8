@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+    <style>
+        #welcomeSection {
+            display: none; 
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Name</h2>
+
+    
+    <input type="text" id="name" value="Victoria">
+    <button onclick="showWelcome()">Enter</button>
+    <button onclick="resetName()">Reset</button>
+
+    <div id="welcomeSection"></div>
+
+    <script>
+        function showWelcome() {
+            
+            var userName = document.getElementById("name").value;
+            document.getElementById("welcomeSection").innerText = "Welcome " + userName;
+            document.getElementById("welcomeSection").style.display = "block";
+        }
+
+        function resetName() {
+           
+            document.getElementById("name").value = 100;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+asce = sorted(numbers)
+dece = sorted(numbers, reverse=True)
+print("Original List:", numbers)
+print("Ascending Order:", asce)
+print("Descending Order:", dece)
